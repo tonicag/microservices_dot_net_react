@@ -1,0 +1,6 @@
+@DSProject.AuthApi_HostAddress = http://localhost:5117
+
+GET {{DSProject.AuthApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

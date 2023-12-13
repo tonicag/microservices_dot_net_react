@@ -1,0 +1,23 @@
+version: '3'
+services:
+  webapi:
+    image: devicemicroservice
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7075:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings:DevicesDb=Server=postgres-db;Database=devicesDb;Port=5432;User Id=postgres;Password=postgres
+    depends_on:
+      - postgres-db
+
+  postgres-db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: devicesDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"

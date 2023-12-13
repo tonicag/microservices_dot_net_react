@@ -1,0 +1,6 @@
+@DSProject.MonitoringAPI_HostAddress = http://localhost:5240
+
+GET {{DSProject.MonitoringAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

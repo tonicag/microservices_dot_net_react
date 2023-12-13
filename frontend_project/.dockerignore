@@ -1,0 +1,77 @@
+# Ignore node_modules directory, as we'll install dependencies inside the Docker container
+node_modules
+
+# Ignore build artifacts, logs, and temporary files
+build/
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore development files
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Ignore development dependencies and scripts
+*.md
+*.markdown
+*.test.*
+*.tsconfig*
+*.eslintrc*
+*.babelrc*
+*.prettierrc*
+*.stylelintrc*
+.editorconfig
+.env
+
+# Ignore version control directories and files
+.git
+.gitignore
+.gitattributes
+.gitmodules
+.hg
+.hgignore
+.hgrc
+.hgsub
+.hgsubstate
+.hgtags
+.bzr
+.bzrignore
+.bzrtags
+.cvsignore
+.svn
+RCS
+SCCS
+_vti_cnf
+vssver.scc
+
+# Ignore package manager files
+yarn.lock
+yarn-error.log
+npm-debug.log
+
+# Ignore Docker specific files
+.dockerignore
+Dockerfile
+.dockerignore
+
+# Ignore any local environment or secret files
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+.env.*.development
+.env.*.test
+.env.*.production
+
+# Ignore miscellaneous files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.pem
+*.pfx

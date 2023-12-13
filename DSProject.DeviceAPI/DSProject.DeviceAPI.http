@@ -1,0 +1,6 @@
+@DSProject.DeviceAPI_HostAddress = http://localhost:5266
+
+GET {{DSProject.DeviceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
