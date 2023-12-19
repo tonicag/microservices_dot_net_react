@@ -17,6 +17,7 @@ import "react-toastify/dist/ReactToastify.css";
 import UserMappingsView from "./views/UserMappingsView";
 import ClientDevicesView from "./views/ClientDevicesView";
 import { createContext } from "react";
+import AdminChat from "./views/AdminChat";
 
 export interface AppState {
   user: UserDto;
@@ -64,6 +65,7 @@ function App() {
             ></Route>
             <Route path="devices/" element={<AdminDevicesView />}></Route>
             <Route path="devices/add" element={<AddNewDevice />}></Route>
+            <Route path="chats" element={<AdminChat></AdminChat>}></Route>
           </Route>
           <Route path="/client/" element={<ClientDevicesView />} />
         </Routes>

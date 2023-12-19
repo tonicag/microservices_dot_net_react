@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSProject.AuthApi", "DSProj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSProject.DeviceAPI", "DSProject.DeviceAPI\DSProject.DeviceAPI.csproj", "{B1AE3A49-F312-4CDE-8D64-ACF963E93C42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSProject.MonitoringAPI", "DSProject.MonitoringAPI\DSProject.MonitoringAPI.csproj", "{2FCEBDF4-7649-426A-AE5A-FBA794ABA58A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSProject.MonitoringAPI", "DSProject.MonitoringAPI\DSProject.MonitoringAPI.csproj", "{2FCEBDF4-7649-426A-AE5A-FBA794ABA58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSProject.ChatAPI", "ChatAPI\DSProject.ChatAPI.csproj", "{9019880B-63C4-40F1-90BD-F04A73B7F485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2FCEBDF4-7649-426A-AE5A-FBA794ABA58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCEBDF4-7649-426A-AE5A-FBA794ABA58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCEBDF4-7649-426A-AE5A-FBA794ABA58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9019880B-63C4-40F1-90BD-F04A73B7F485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9019880B-63C4-40F1-90BD-F04A73B7F485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9019880B-63C4-40F1-90BD-F04A73B7F485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9019880B-63C4-40F1-90BD-F04A73B7F485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
