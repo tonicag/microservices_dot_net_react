@@ -65,8 +65,8 @@ function App() {
             ></Route>
             <Route path="devices/" element={<AdminDevicesView />}></Route>
             <Route path="devices/add" element={<AddNewDevice />}></Route>
-            <Route path="chats" element={<AdminChat></AdminChat>}></Route>
           </Route>
+          <Route path="/admin/chats" element={<AdminChat></AdminChat>}></Route>
           <Route path="/client/" element={<ClientDevicesView />} />
         </Routes>
         <ToastContainer

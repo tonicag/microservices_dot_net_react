@@ -4,7 +4,7 @@ import { ResponseDto } from "../interfaces/ResponseDto";
 import authHeader from "./authHeader";
 import MeasurementRequest from "../interfaces/MeasurementRequest";
 import HourlyEntity from "../interfaces/HourlyEntity";
-const MonitoringServiceUri = `http://localhost:7012/api/`;
+const MonitoringServiceUri = `https://localhost:7012/api/`;
 export default class MonitoringService {
   public static async getAllMeasurementsForDay(
     request: MeasurementRequest

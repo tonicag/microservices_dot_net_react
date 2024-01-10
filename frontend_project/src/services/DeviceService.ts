@@ -3,7 +3,7 @@ import DeviceDto from "../interfaces/DeviceDto";
 import { ResponseDto } from "../interfaces/ResponseDto";
 import authHeader from "./authHeader";
 
-const DeviceServiceUri = "http://localhost:7075/";
+const DeviceServiceUri = "https://localhost:7075/";
 
 export default class DeviceService {
   public static async createDevice(

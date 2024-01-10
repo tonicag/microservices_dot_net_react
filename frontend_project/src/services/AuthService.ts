@@ -6,8 +6,8 @@ import LoginResponse from "../interfaces/LoginResponse";
 import authHeader from "./authHeader";
 import DeviceDto from "../interfaces/DeviceDto";
 
-export const AuthServiceURL = "http://localhost:7005/";
-const DeviceServiceUri = "http://localhost:7075";
+export const AuthServiceURL = "https://localhost:7005/";
+const DeviceServiceUri = "https://localhost:7075";
 export default class AuthService {
   constructor() {}
   public static async login(
